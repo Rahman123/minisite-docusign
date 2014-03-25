@@ -9,7 +9,11 @@
         <div class="main homeMain">
             <div id="contentArea" class="post">
             <% leaderboard.forEach(function(member){ %>
-                <p><%= member.rank %> <%= member.handle %> <%= member.score %></p>
+                <div style="float:left; padding-left:25px"><img src="http://res.cloudinary.com/hnep56ea0/image/upload/c_fill,h_100,w_100/v1377606087/jeffdonthemic.png"></div>
+                <div><div style="padding-top: 10px;padding-bottom:10px;font-size:medium"><%= member.rank %></div>
+                <span style="font-size:x-large"><a href="http://www.topcoder.com/member-profile/<%= member.handle %>" target="_blank"><%= member.handle %></a></span><br/>
+                <%= member.score %> points</div>
+                <div style="clear: both;"></div>
             <% }) %>
             <!-- contentArea -->
             <div style="padding-bottom:10px"></div><div class="clear"></div>
