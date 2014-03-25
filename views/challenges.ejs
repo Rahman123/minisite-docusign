@@ -1,14 +1,22 @@
 <!-- Content Wrapper -->
 <div id="singleColumn">
     <div id="contentWrapper">
-        <div id="homeBanner" class="bannerAbout" style="background-image:url('/images/<%= banner %>');">
+        <div id="homeBanner" class="bannerAbout" style="background-image:url('/images/<%= banner %>'); height:200px">
           <div class="introContent">
           <h2>Open Challenges</h2>
-            <div class="para">Get ready to compete in the following weekly development challenges.</div>     </div>
+            <div class="para">Get ready to compete in the following weekly development challenges. Each week a different mobile development challenge based upon an industry vertical.</div>     </div>
         </div>
         <div class="main homeMain">
             <div id="contentArea" class="post">
-            open challenges
+            <% challenges.forEach(function(challenge){ %>
+                <%  var endDate = new Date(Date.parse(challenge.submissionEndDate));%>
+                <p style="padding-bottom:15px"><strong style="font-size: medium"><a href="http://www.topcoder.com/challenge-details/<%= challenge.challengeId %>/?type=develop" target="_blank"><%= challenge.challengeName %></a> - Top prize: $<%= challenge.prize[0] %></strong>
+                <% if (challenge.technologies.length > 0) { %><br/>Technologies: <%= challenge.technologies.join(', ') %><% } %>
+                <br/>Registrants: <%= challenge.numRegistrants %> - Submissions: <%= challenge.numSubmissions %>
+                <br/>Submissions due <%= endDate %>
+                <br/><a href="http://www.topcoder.com/challenge-details/<%= challenge.challengeId %>/?type=develop" target="_blank">See the challenge</a> for compelete details and start competing.
+                </p>
+            <% }) %>
             <!-- contentArea -->
             <div style="padding-bottom:10px"></div><div class="clear"></div>
         </div>

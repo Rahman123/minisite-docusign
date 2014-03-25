@@ -28,6 +28,14 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
+// set some vars specific to this app
+app.locals.appName = 'DocuSign';
+app.locals.siteLogo = 'docusign.jpg';
+app.locals.challengesApiEndpoint = 'http://api.topcoder.com/v2/develop/challenges';
+app.locals.leaderboard = 'http://tc-leaderboard.herokuapp.com/ibm';
+
+// this is kind of a hack to get the menus to highlight correctly.
+// this is dependent on the css and not sure how easy it is to add new menu items
 var menus = function(selected) {
   var default_menus =  {
     home: 'menu-item menu-item-type-post_type menu-item-object-page menu-item-184',
@@ -44,29 +52,63 @@ var menus = function(selected) {
   return default_menus;
 }
 
+var get_challenges = function(req, res, next) {
+  http.get(app.locals.challengesApiEndpoint, function(res){
+      var data = '';
+      res.on('data', function (chunk){
+          data += chunk;
+      });
+      res.on('end',function(){
+          var challenges = JSON.parse(data);
+          req.challenges = challenges.data;
+          return next();
+      })
+  })
+}
+
+var get_leaderboard = function(req, res, next) {
+  http.get(app.locals.leaderboard, function(res){
+      var data = '';
+      res.on('data', function (chunk){
+          data += chunk;
+      });
+      res.on('end',function(){
+          var leaderboard = JSON.parse(data);
+          req.leaderboard = leaderboard;
+          return next();
+      })
+  })
+}
+
 app.get('/', function(req, res) {
   res.render('index', 
-    { title: 'Home', 
+    { 
+      title: 'Home', 
       banner: 'banner_about.png',
       menu: menus(req.route.path)
     }
   )
 });
 
-app.get('/challenges', function(req, res) {
+app.get('/challenges', get_challenges, function(req, res) {
   res.render('challenges', 
-    { title: 'Open Challenges', 
+    { 
+      title: 'Open Challenges', 
       banner: 'banner_challenges.png',
-      menu: menus(req.route.path)
+      menu: menus(req.route.path),
+      challenges: req.challenges
     }
   )
 });
 
-app.get('/leaderboard', function(req, res) {
+app.get('/leaderboard', get_leaderboard, function(req, res) {
+  console.log(req.leaderboard);
   res.render('leaderboard', 
-    { title: 'Leaderboard', 
+    { 
+      title: 'Leaderboard', 
       banner: 'banner_leaderboard.png',
-      menu: menus(req.route.path)
+      menu: menus(req.route.path),
+      leaderboard: req.leaderboard
     }
   )
 });

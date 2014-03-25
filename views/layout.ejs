@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title><%= title %>  | DocuSign</title>
+<title><%= title %>  | <%= locals.appName %></title>
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/social_widget.css" />
 <link rel="stylesheet" href="/stylesheets/style.css" type="text/css" />
@@ -64,25 +64,10 @@
         <li id="menu-item-189" class="<%= menu.challenges %>"><a href="/challenges" ><span class="right"><span class="middle">CHALLENGES</span></span></a></li>
         <li id="menu-item-190" class="<%= menu.leaderboard %>"><a href="/leaderboard" ><span class="right"><span class="middle">LEADERBOARD</span></span></a></li>
       </ul>     
-      <a id="siteLogo" href="/"><img src="/images/docusign.jpg" alt="DocuSign" width="350"/></a>  
+      <a id="siteLogo" href="/"><img src="/images/<%= locals.siteLogo %>" alt="<%= locals.appName %>" width="350"/></a>  
     </div>
-<script>
-  $(document).ready(function(){
-    $('tbody tr:odd').each(function(){
-      $(this).addClass('odd');
-    })
-  })
-</script>
-<style>
-ol li{margin-bottom:10px}
-</style>
-<%-body%>
-<style>
-/*
-#footer{margin-top:0px}
-.footerMenu {padding-top:15px;}
-*/
-</style>
+    <%-body%>
+</div>
 <div id="footer">
   <div id="footerInner">
        <a href="http://www.topcoder.com/" class="topcoderLogoMed"><img src="/images/tcLogoSmall.png" alt="" /></a>
