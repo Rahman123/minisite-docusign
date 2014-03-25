@@ -1,0 +1,112 @@
+ =WordPress Core
+-------------------------------------------------------------- 
+.alignnone {
+    margin 5px 20px 20px 0;
+}
+
+.aligncenter, div.aligncenter {
+    displayblock;
+    margin 5px auto 5px auto;
+}
+
+.alignright {
+    floatright;
+    margin 5px 0 20px 20px;
+}
+
+.alignleft {
+    floatleft;
+    margin 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display block;
+    margin 5px auto 5px auto;
+}
+
+a img.alignright {
+    floatright;
+    margin 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    floatleft;
+    margin 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display block;
+    margin-left auto;
+    margin-right auto
+}
+
+.wp-caption {
+    background #fff;
+    border 1px solid #f0f0f0;
+    max-width 96%;  Image does not overflow the content area 
+    padding 5px 3px 10px;
+    text-align center;
+}
+
+.wp-caption.alignnone {
+    margin 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border 0 none;
+    height auto;
+    margin0;
+    max-width 98.5%;
+    padding0;
+    width auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size11px;
+    line-height17px;
+    margin0;
+    padding0 4px 5px;
+}
+
+ default by user 
+
+ speaker content 
+
+.speakerContent {
+}
+
+	.speakerContent p {
+		font-size12px;
+		color#666666;
+		line-height18px;
+		margin-bottom10px;
+	}
+	.speakerContent a {
+		color#ff0000;
+	}
+	.speakerContent ahover {
+		text-decoration underline;
+	}
+	.speakerContent ul {
+		font-size12px;
+		color#666666;
+		margin-top20px;
+	}
+	.speakerContent ul li {
+		line-height18px;
+		margin-bottom10px;
+		backgroundurl(..ibullet1.png) no-repeat left 5px;	
+		padding-left22px;
+	}

@@ -1,0 +1,335 @@
+/* DTN Interactive style */
+#homePage #videoOverview{
+	margin-bottom:0;
+}
+#homePage #contentArea{
+	margin-top:20px;
+}
+
+/* DTN interActive */
+#interActive{
+	width:970px;
+	margin:0 auto;
+	height:583px;
+}
+	#interActive .interActiveBottomBar{
+		height:20px;
+		background-color:#115b95;
+	}
+	#interActive #interActiveList{
+		height:563px;
+		background:url(../i/stack-diagram-bg.png) left top no-repeat;
+	}
+		#interActive .interActiveListHeader{
+			text-align:center;
+			background:url(../i/stack-diagram-line.png) center bottom no-repeat;
+			padding-bottom:4px;
+			height:94px;
+		}
+			#interActive .interActiveListHeader h3{
+				font-size:40px;
+				line-height:48px;
+				padding-top:22px;
+				color:#fff;
+				font-family:"HelveticaLTStd", Arial, Helvetica, sans-serif;
+			}
+			#interActive .interActiveListHeader p{
+				font-size:13px;
+				color:#a7bbdd;
+			}
+		#interActive .interActiveListContent{
+			margin-left:32px;
+			margin-top:32px;
+			width:574px;
+			min-height:100px;
+			position:relative;
+		}
+			#interActive .sideNavItem{
+				width:124px;
+				height:39px;
+				font-size:12px;
+				line-height:38px;
+				color:#fff;
+				background:transparent url(../i/stack-side-nav.png) left top no-repeat;
+				font-weight:bold;
+				padding-left:26px;
+				font-family:"HelveticaLTStd", Arial, Helvetica, sans-serif;
+				position:absolute;
+				right: -154px;
+				top:0;
+			}
+			#interActive .layerApplication{
+				top:107px;
+			}
+			#interActive .layerTransport{
+				top:181px;
+			}
+			#interActive .layerNetwork{
+				top:252px;
+			}
+			#interActive .layerLink{
+				top:298px;
+			}
+			#interActive .layerPhysical{
+				top:343px;
+			}
+			#interActive .interActiveItem{
+				height:48px;
+				position:absolute;
+				padding-left:24px;
+				padding-top:5px;
+			}
+				#interActive .interActiveItem .text{
+					font-size:16px;
+					font-weight:bold;
+					color:#fff;
+					display:block;
+					text-align:center;
+					height:48px;
+					line-height:48px;
+					cursor:pointer;
+				}
+			#interActive .userApplicationItem{
+				background:url(../i/stack-item-lightblue.png) left top no-repeat;
+				width:545px;
+				left:0;
+				top:0;
+				z-index:100;
+			}
+				#interActive .userApplicationItem .text{
+					font-size:18px;
+				}
+			#interActive .fileTransferItem{
+				background:url(../i/stack-item-lightblue-short.png) left top no-repeat;
+				width:191px;
+				left:0;
+				top:49px;
+				z-index:99;
+			}
+			#interActive .dtpcItem{
+				background:url(../i/stack-item-pink-long.png) left top no-repeat;
+				width:351px;
+				left:194px;
+				top:49px;
+				z-index:98;
+			}
+			#interActive .bpItem{
+				background:url(../i/stack-item-pink.png) left top no-repeat;
+				width:545px;
+				left:0;
+				top:98px;
+				z-index:97;
+			}
+			#interActive .ltpItem{
+				background:url(../i/stack-item-pink-short.png) left top no-repeat;
+				width:223px;
+				left:0;
+				top:146px;
+				z-index:96;
+			}
+			#interActive .udpItem{
+				background:url(../i/stack-item-blue-short.png) left top no-repeat;
+				width:223px;
+				left:0;
+				top:195px;
+				z-index:95;
+			}
+			#interActive .tcpItem{
+				background:url(../i/stack-item-blue-big.png) left top no-repeat;
+				width:328px;
+				left:218px;
+				top:147px;
+				height:96px;
+				z-index:94;
+			}
+				#interActive .tcpItem .text{
+					height:96px;
+					line-height:92px;
+				}
+			#interActive .ipItem{
+				background:url(../i/stack-item-blue.png) left top no-repeat;
+				width:545px;
+				left:0;
+				top:244px;
+				z-index:93;
+			}
+			#interActive .ethernetItem{
+				background:url(../i/stack-item-gray.png) left top no-repeat;
+				width:545px;
+				left:0;
+				top:293px;
+				z-index:92;
+			}
+			#interActive .wireItem{
+				background:url(../i/stack-item-gray.png) left top no-repeat;
+				width:545px;
+				left:0;
+				top:342px;
+				z-index:91;
+			}
+			#interActive .interActiveItem.active{
+				background-position:left -55px;
+				padding-top:10px;
+				padding-left:35px;
+				height:48px;
+				z-index:1000;
+			}
+			#interActive .tcpItem.active{
+				background-position:left -106px;
+				height:103px;
+			}
+			#interActive .userApplicationItem.active{
+				width:558px;
+				top:2px;
+			}
+			#interActive .fileTransferItem.active{
+				width:195px;
+				top:51px;
+			}
+			#interActive .dtpcItem.active{
+				width:353px;
+				top:51px;
+				z-index:98;
+			}
+			#interActive .bpItem.active{
+				width:548px;
+				top:100px;
+			}
+			#interActive .ltpItem.active{
+				width:226px;
+				top:148px;
+			}
+			#interActive .udpItem.active{
+				width:226px;
+				top:197px;
+			}
+			#interActive .tcpItem.active{
+				width:338px;
+				top:149px;
+				z-index:94;
+			}
+			#interActive .ipItem.active{
+				width:548px;
+				top:246px;
+			}
+			#interActive .ethernetItem.active{
+				width:548px;
+				top:295px;
+			}
+			#interActive .wireItem.active{
+				width:548px;
+				top:344px;
+			}
+			
+			
+			#interActive .tooltips{
+				min-width:100px;
+				min-height:50px;
+				display:none;
+				position:absolute;
+				cursor:auto;
+				z-index:9999;
+			}
+				#interActive .tooltips .tooltipInner{
+					position:relative;
+					background-color:#0f2b5b;
+					font-size:12px;
+					line-height:18px;
+					color:#eee;
+					padding:10px 18px;
+					overflow:visible;
+				}
+			#interActive .userApplicationItem.active .tooltips,
+			#interActive .bpItem.active .tooltips,
+			#interActive .ipItem.active .tooltips,
+			#interActive .ethernetItem.active .tooltips,
+			#interActive .wireItem.active .tooltips{
+				left:632px;
+				top:-103px;
+			}
+			#interActive .dtpcItem.active .tooltips{
+				left:438px;
+				top:-103px;
+			}
+			#interActive .fileTransferItem.active .tooltips{
+				left:280px;
+				top:-22px;
+			}
+			#interActive .tcpItem.active .tooltips{
+				left:420px;
+				top:-56px;
+			}
+			#interActive .ltpItem.active .tooltips,
+			#interActive .udpItem.active .tooltips{
+				left:310px;
+				top:-22px;
+			}
+				#interActive .userApplicationItem .tooltipInner,
+				#interActive .bpItem .tooltipInner,
+				#interActive .dtpcItem .tooltipInner,
+				#interActive .ipItem .tooltipInner,
+				#interActive .ethernetItem .tooltipInner,
+				#interActive .wireItem .tooltipInner{
+					width:260px;
+					min-height:240px;
+				}
+				#interActive .fileTransferItem .tooltipInner{
+					width:610px;
+					min-height:74px;
+				}
+				#interActive .ltpItem .tooltipInner,
+				#interActive .udpItem .tooltipInner{
+					width:580px;
+					min-height:74px;
+				}
+				#interActive .tcpItem .tooltipInner{
+					width:254px;
+					min-height:192px;
+				}
+				#interActive .userApplicationItem .tooltips .tooltipArrow,
+				#interActive .bpItem .tooltips .tooltipArrow,
+				#interActive .dtpcItem .tooltips .tooltipArrow{
+					background:url(../i/stack-arrow-tooltip-big.png) left top no-repeat;
+					width:43px;
+					height:260px;
+					display:block;
+					overflow:hidden;
+					position:absolute;
+					left:-43px;
+					top:0;
+				}
+				#interActive .ipItem .tooltips .tooltipArrow,
+				#interActive .ethernetItem .tooltips .tooltipArrow,
+				#interActive .wireItem .tooltips .tooltipArrow,
+				#interActive .tcpItem .tooltips .tooltipArrow{
+					background:url(../i/stack-arrow-tooltip.png) left top no-repeat;
+					width:43px;
+					height:213px;
+					display:block;
+					overflow:hidden;
+					position:absolute;
+					left:-43px;
+					top:0;
+				}
+				#interActive .ltpItem .tooltips .tooltipArrow,
+				#interActive .udpItem .tooltips .tooltipArrow,
+				#interActive .fileTransferItem .tooltips .tooltipArrow{
+					background:url(../i/stack-arrow-tooltip-minor.png) left top no-repeat;
+					width:43px;
+					height:94px;
+					display:block;
+					overflow:hidden;
+					position:absolute;
+					left:-43px;
+					top:0;
+				}
+				
+				
+			#interActive .interActiveItem	{
+				cursor:pointer;
+			}
+			#interActive .interActiveItem.disabled,
+			#interActive .interActiveItem.disabled .text{
+				cursor:auto;
+			}		
+			

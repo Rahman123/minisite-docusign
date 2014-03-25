@@ -1,0 +1,1062 @@
+html, body{
+	min-height:0;
+	min-width: 1200px;
+	}
+
+	
+	#innerWrapper{
+	border-bottom:11px solid #274d7e;
+	}
+	
+	
+	#wrapper {
+		background: url(/images/topborder.gif) repeat-x top left;
+	}
+	
+		
+		/*tc logo*/
+		#siteLogo{
+			display:inline-block;
+			margin-top:6px;
+			margin-right:15px;
+			}
+		/*tc logo*/
+		#topcoderLogo{
+			margin-left:28px;
+			margin-top:42px;
+			}
+		/*topmenu*/
+			/* Top Menu */
+			.topMenu {
+				display: inline;
+				float:right;
+				margin-top: 46px;
+			}
+				.topMenu li {
+					float:left;
+					position:relative;
+					margin-left:6px;
+				}
+					.topMenu li a,
+					.topMenu li a:visited  {
+						text-decoration: none;
+						color:#5eb0ef;
+						font-size:13px;
+						font-weight:normal;	
+						text-shadow:0 -1px 1px #fffffe;
+						line-height:28px;
+						height: 28px;
+						overflow: hidden;
+						display:inline-block;
+						padding-left:16px;
+						width: auto;
+											
+					}
+						.topMenu li a .right{
+							line-height:28px;
+							height: 28px;
+							overflow: hidden;
+							display:inline-block;
+							padding-right:16px;
+							width: auto;
+						}
+							.topMenu li a .middle{
+								line-height:28px;
+								height: 28px;
+								overflow: hidden;
+								display:inline-block;
+								padding:0 7px;
+								width: auto;
+							}
+					.topMenu li a:hover,
+					.topMenu li.current-menu-item a,
+					.topMenu li.current-menu-item a:visited,
+					.topMenu li.current-menu-item a:hover{
+						text-shadow:0 -1px 1px #2972cc;
+						color:#fff;
+						background:url(/images/menu.png) 0 0 no-repeat;
+					}
+						.topMenu li a:hover .right,
+						.topMenu li.current-menu-item a .right,
+						.topMenu li.current-menu-item a:visited .right,
+						.topMenu li.current-menu-item a:hover .right{
+							background:url(/images/menu.png) 100% -56px no-repeat;
+						}
+							.topMenu li a:hover .middle,
+							.topMenu li.current-menu-item a .middle,
+							.topMenu li.current-menu-item a:visited .middle,
+							.topMenu li.current-menu-item a:hover .middle{
+								background:url(/images/menu.png) 0 -28px repeat-x;
+							}
+					
+					
+		
+			
+		.topMenu li:hover, 
+		.topMenu li.current-menu-item, 
+		.topMenu li.current-menu-item:hover {
+			/* background: url(/images/menu-active.png) 50% 100% no-repeat; */
+		}
+		#contentArea{
+			width:990px;
+			margin:0 auto;
+			background:url(/images/shadow.png) center bottom no-repeat;
+			}
+		.homeMain #contentArea{
+			width:722px;
+			float:left;
+			line-height:1.5em;
+			padding-top:20px;
+			padding-right:0px;
+			}
+			
+			#contentArea{
+				font-size:13px;
+				color:#636363;
+				}
+				#contentArea p{
+					line-height:20px;
+					padding-bottom:7px;
+					}
+				
+				#contentArea h2 {
+
+					color: #5eb0ef;
+					font-size: 25px;
+					font-weight: normal;
+					padding-bottom:29px;
+					margin:30px 0px 0;
+					clear:both;
+				}			
+				
+				#contentArea h2.noMarginTop{
+					margin-top:0px;
+				}				
+				
+				#contentArea h3{
+					font-weight:normal;
+					padding-top:5px;
+					padding-bottom:5px;
+					font-size:16px;
+					color:#1883d6;
+					margin-top:0.5em;
+					}
+				#contentArea ul {
+					padding:10px 0 10px 35px;
+				}
+				#contentArea ol{
+					padding:10px 0px 10px 50px;
+					list-style: decimal;
+					}
+				#contentArea ol li{
+					font-size:12px;
+					padding-bottom:12px;
+					}
+				#contentArea ul li{
+					font-size:12px;
+					padding-bottom:5px;
+					}
+				
+				table {
+					background:#1883d6;
+					border:1px solid #e8e8e8;
+					width:730px;
+					margin-top:10px;
+				}
+				
+				table th,
+				table tr.head td{
+					text-shadow:0 1px 1px #222222;
+					background:#1883d6;
+					height:auto;
+					color:#fffffe;
+					}
+					
+					
+				tbody tr td a:link,tbody tr td a:visited {color:#f5791e;text-decoration:underline}
+				table {background:#E9B041;border:1px solid #1883d6;border-bottom:0px;}
+				tr td{padding:2px 5px 2px 5px;font-size:12/14px;5px 10px;border-bottom:1px solid #1883d6;vertical-align:top;}
+				thead tr td{background:#f6e8e8;font-weight:bold}
+				tbody tr td{background:#f6e8e8}
+				tbody tr td strong,tbody tr td a {color:#FFF}
+				tbody tr td a:hover {color:#367B54;}
+				tbody tr.odd td{background:#ffffff}
+				
+				#contentArea table p {padding-bottom:0px;}
+			.personnelTbl thead tr td,
+			.personnelTbl tbody tr td{
+				background-color: #fff;
+				border: none;
+			}
+		/*middle big banner*/
+		#contentWrapper{
+			padding-top:0px;
+			border-top:0px;
+			/*background: url(/images/bg_body.png) repeat-x top left;*/
+			}
+
+				#homeBanner{
+					height:217px;
+					/*width:1090px;*/
+					margin:0 auto;
+					color:#fff;
+				}
+				
+				#challengePage{
+					padding:0px;
+				}
+				
+				#challengePage #homeBanner img{
+					display:block;
+					position:absolute;
+					}
+								
+				#homePage #homeBanner{
+						border:none;
+						background-repeat: no-repeat;
+						background-position: center 0;
+						height:800px;
+							color:#fff;
+							}
+					
+				#homeBanner  .introContent{ 
+					padding-left: 110px;
+					width: 1090px;
+					margin: 0 auto;
+					padding-top: 40px;
+					font-size:0.8em;		
+					}
+				
+				#homePage #homeBanner  .introContent{ 
+					padding-top: 90px;
+				}
+				 #homeBanner .introContent .para{
+					line-height: 22px;
+					width: 980px;
+					padding-top: 15px;
+					font-size: 15px;
+				}
+				#homePage #homeBanner  .introContent .para{
+					line-height: 24px;
+
+				}
+				#homeBanner h2{
+					color:#5eb0ef;
+					font-weight: normal;
+					font-size:45px;
+				}
+				#homeBanner h3{
+					font-weight: normal;
+					font-size:30px;
+					color:#618092;
+
+				}
+				#challengePage .bannerCh h3{
+					color:#8a8a89;
+					font-weight: normal;
+
+				}
+				
+				#homeBanner  .introContent li{
+					background: url("i/listStyleWhite.png") no-repeat scroll 5px 4px transparent;
+					margin-top: 5px;
+					padding-left: 20px;
+				}
+				
+				#homePage #videoOverview	{
+					height:auto;
+					background:#115b95;
+					width:950px;
+					margin:0 auto;
+					padding:10px;
+					margin-bottom:20px;
+				}	
+
+				#homePage .btnWatch{
+					background: url("i/videoPlay.png") no-repeat 0 0;
+					width: 208px;
+					height: 138px;
+					display: block;
+					margin-bottom:10px;
+					margin-top: 17px;
+				}
+
+				#homePage .btnWatch:hover{
+					background: url("i/videoPlay.png") no-repeat 0 -138px;
+				}	
+				#homePage .btnWatchComing{
+					background: url("i/coming.png") no-repeat 0 0;
+					width: 208px;
+					height: 138px;
+					display: block;
+					margin-bottom:10px;
+					margin-top: 17px;
+				}
+				
+				#homePage #videoOverview	.intro{
+					font-size:0.9em;
+					color:#fff;
+				}				
+		
+		/*middle three banners*/
+		#homeBottomBanner{
+			margin:0 auto;
+			}
+			#homeBannerLeft{
+				background: url(/images/homeBannerLeft.png) repeat-x;
+			}
+			#homeBannerLeft:hover{
+				background: url(/images/homeBannerLeftHover.png) repeat-x;
+				}
+				#homeBottomBanner #homeBannerLeft,
+				#homeBottomBanner #homeBannerLeft:visited{
+					font-size:24px;
+					font-family:'Myriad Pro';
+					padding-top:60px;
+					text-align:center;
+					font-weight:normal;
+					height:74px;
+					}
+			#homeBannerMiddle{
+				background: url(/images/homeBannerMiddle.png) repeat-x;
+			}
+			#homeBannerMiddle:hover{
+				background: url(/images/homeBannerMiddleHover.png) repeat-x;
+			}
+				#homeBottomBanner #homeBannerMiddle,
+				#homeBottomBanner #homeBannerMiddle:visited{
+					font-size:12px;
+					font-weight:normal;
+					padding-top:20px;
+					height:114px;
+					}
+					#homeBottomBanner #homeBannerMiddle strong{
+						font-size:24px;
+						}
+			#homeBannerRight {
+				background: url(/images/homeBannerRight.png) repeat-x;
+			}
+			#homeBannerRight:hover {
+				background: url(/images/homeBannerRightHover.png) repeat-x;
+			}
+				#homeBottomBanner #homeBannerRight,
+				#homeBottomBanner #homeBannerRight:visited{
+					font-size:12px;
+					height:114px;
+					font-weight:normal;
+					color:#143e73;
+					padding-top:20px;
+					}
+					#homeBottomBanner #homeBannerRight strong{
+						font-size:24px;
+						}
+		/*footer*/
+		#footer{
+			padding:33px 0 20px 0;
+			border-top:1px solid #cccccc;
+			}
+			#footerInner{
+				width:990px;
+				margin:0 auto;
+				}
+			.footerMenu li {
+				height: 33px;
+				width: 32px;
+				margin-left:5px;
+				margin-right:0;
+				}
+				.footerMenu li a{
+					text-indent: -999999px;
+				}
+				.iconBlog a{
+					background: url(/images/iconBlog.png) no-repeat;
+					}
+				.iconTwitter a{
+					background: url(/images/iconTwitter.png) no-repeat;
+					}
+				.iconYoutube a{
+					background: url(/images/iconYoutube.png) no-repeat;
+					}
+				.iconFacebook a{
+					background: url(/images/iconFacebook.png) no-repeat;
+					}
+				.footerMenu li a{
+					background-position:0px 3px;	
+				}
+				.footerMenu li a:hover{
+					background-position:0px 0px;	
+				}				
+
+
+#homePage #homeBottomBannerNew .box{
+width:290px;
+height:216px;
+	position:relative;
+	color: #fff;
+	display: inline;
+	float: left;
+	margin: 0 10px 0px 0px;
+	}
+#challengePage #homeBottomBannerNew .box{
+	padding: 10px 10px 6px 10px;
+	font-size: 11px;
+	height: 200px;
+	width: 270px;
+}
+#homePage #homeBottomBannerNew .box img{
+	position:absolute;
+	}
+#homePage #homeBottomBannerNew .box h2{
+	font-size:20px;
+	position:absolute;
+	top:5px;
+	left:10px;
+	}
+	#homePage #homeBottomBannerNew .box h2 small{
+		font-weight:normal;
+		font-size:16px;
+		}
+#homePage #homeBottomBannerNew .bottomRightImage{
+margin-right:0;
+}
+
+/* single Column */
+#singleColumn #contentArea,
+#singleColumn table{
+	width:990px;
+}
+
+#singleColumn table.noBorder {
+	border-collapse:collapse;
+	border:0px;
+	background:none;
+}
+
+#singleColumn table.noBorder td{
+	border:0px;
+	background:none;
+	vertical-align:top;
+	padding-right:10px;	
+}
+
+/*main*/
+.main{
+	width:990px;
+	margin:0 auto;
+	}
+.homeMain{
+	padding:2px  0 0;
+	}
+/*sidebar*/
+.sideBar{
+	float:left;
+	width:238px;
+	padding-top:20px;
+	padding-right:30px;
+	}
+/*widget*/
+.widget{
+	position:relative;
+	background: #f9f9f9;
+	margin-bottom:20px;
+
+	}
+	.widget h2{
+		color: #FFFFFF;
+		font-size: 15px;
+		height: 51px;
+		line-height: 45px;
+		padding-left: 60px;
+		}
+		
+	.widget p,
+	.widget ul,
+	.widget ol{
+		margin:11px 15px 0px 20px;
+	}	
+	.widget ul{
+		margin-left: 0;
+	}
+.activeContestWidger{
+	padding-bottom:0;
+	}
+	.activeContestWidger ul{
+		padding-top:10px;
+		}
+		.activeContestWidger li{
+			margin-bottom:11px;
+			border-bottom:1px dotted #cccccc;
+			font-size:11px;
+			padding-bottom:13px;
+			}
+		.activeContestWidger li.lastItem{
+			border-bottom:none;
+			margin-bottom:0;
+	}
+			.activeContestWidger li a,
+			.activeContestWidger li a:visited{
+				color:#356697;
+				text-decoration:none;
+				font-size:12px;
+				font-weight:bold;
+				}
+			.activeContestWidger li a:hover{
+				text-decoration:underline;
+				}
+			.activeContestWidger li .prize{
+				color:#525252;
+				}
+			.activeContestWidger li .dateStartsOn{
+				color:#525252;
+				}
+			.activeContestWidger li label{
+				font-weight:bold;
+				}
+			.activeContestWidger li .description{
+				color:#a4a3a4;
+				line-height:14px;
+				}
+	.corners{
+		background-image: url(/images/corners.png);
+		background-repeat: no-repeat;
+		position:absolute;
+		width:3px;
+		height:3px;
+		display:block;
+		}
+	.tl{
+		top:0;
+		left:0;
+		background-position:0 0;
+		}
+	.tr{
+		top:0;
+		right:0;
+		background-position:-3px 0;
+		}
+	.bl{
+		bottom:0;
+		left:0;
+		background-position:0 -3px;
+		}
+	.br{
+		bottom:0;
+		right:0;
+		background-position:-3px -3px;
+		}
+.post{
+	color:#525252;
+	font-size:11px;
+	line-height:16px;
+	}
+.post ul{
+	}
+	.post ul li{
+		padding-left:12px;
+		color:#636363;
+		font-size:11px;
+		background:url(/images/listStyle.png) no-repeat 0 4px;
+		}
+	.post a,
+	.post a:visited{
+		color:#5eb0ef;
+		text-decoration:none;
+		}
+	.post a:hover{
+		text-decoration:underline;
+		}
+		
+
+.sideBar .post a{
+	color:#636363;
+}	
+.learnCrowdsourcingWidget h2{
+	line-height: 23px;
+	font-weight: normal;
+	font-size: 16px;
+	background-color: #92a3b1;
+	text-align: center;
+	padding: 20px;
+	height: auto;
+}
+.howToCompleteWidget h2{
+height: 60px;
+line-height: 60px;
+padding-left: 60px;
+background-position: 17px center;
+background-image: url("i/icon-bracket.png");
+background-repeat: no-repeat;
+font-weight: normal;
+font-size: 16px;
+background-color: #92a3b1;
+}
+.howToCompleteWidget ul{
+	padding-top:6px;
+	padding-left:10px;
+	}
+	.howToCompleteWidget p{
+		padding-bottom:14px;
+		}
+
+
+.learnCrowdsourcingWidget p{
+	text-align: center;
+	margin-bottom: 20px;
+	padding:5px 0px 155px 0;
+	background: url("i/icon-head.png") no-repeat center bottom;
+} 		
+		
+.bottomAction{
+	background-color: #eef0f2;
+	text-align:center;
+	padding:12px 0;
+	}
+	.bottomAction a.btnRegister,
+	.bottomAction a.btnDown{
+		font-size: 14px;
+		text-shadow:0 -1px 1px #2f88e7;
+		color:#fffffe;
+		height:40px;
+		line-height: 40px;
+		padding: 0 16px;
+		width: 112px;
+		border-bottom:1px solid #fffffe;
+		margin:0 auto;
+		display:block;
+		background-color: #5eb0ef;
+		border-radius: 2px;
+		
+		}
+	.bottomAction a.btnDown{
+		width:160px;
+
+	}
+	.bottomAction a:hover{
+		text-decoration: none;
+		background-color: #196cac;
+		}
+
+		
+
+.post img{
+	}
+.post .wp-caption.alignleft,
+.post img.alignleft {
+   display:inline;
+   margin-left:0;
+   float:left;
+   margin-right:1.625em;
+		}
+.post .wp-caption.alignright,
+.post img.alignright{
+   display:inline;
+   margin-right:0;
+   float:right;
+   margin-left:1.625em;
+	}
+.post .wp-caption.aligncenter,
+.post img.aligncenter{
+   clear:both;
+   display:block;
+   margin-left:auto;
+   margin-right:auto;
+	}
+.wp-caption {
+	/*-webkit-box-shadow:1px 3px 3px #CCC, -1px -1px 3px #CCC;
+    -moz-box-shadow:1px 3px 3px #CCC, -1px -1px 3px #CCC;
+    box-shadow:1px 3px 3px #CCC, -1px -1px 3px #CCC;*/
+	
+	width:auto;
+	text-align:center;
+	height:auto;
+	padding:13px 0 0;
+	display:inline-block;
+	margin:0 15px 10px;
+	}
+.post img{
+/*-webkit-box-shadow:1px 3px 3px #CCC, -1px -1px 3px #CCC;
+-moz-box-shadow:1px 3px 3px #CCC, -1px -1px 3px #CCC;
+box-shadow:1px 3px 3px #CCC, -1px -1px 3px #CCC;*/
+	
+	width:auto;
+	text-align:center;
+	height:auto;
+	display:inline-block;
+	margin:0 15px 10px;
+	}
+.post .wp-caption img {
+	border:1px solid #1883D6;
+	margin: 0 0 8px 0;
+	padding: 0;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+}
+.wp-caption p.wp-caption-text {
+	font-size: 12px;
+	color: #c5c5c5;
+	font-weight: normal;
+	text-align: left;
+	border-bottom: 1px solid #efefef;
+	line-height: 17px;
+	padding: 10px 0;
+	margin: 0;
+}
+
+/*modal*/
+.modalWrapper {
+	background: url(/images/modal-wrapper.png) repeat top left;
+	z-index:100;
+}
+#modalBox {
+	width: 602px;
+	position:fixed;
+
+}
+#closeModal {
+position: absolute;
+top: 11px;
+right: 8px;
+width: 18px;
+height: 18px;
+background: url(/images/close-modal.png) no-repeat top left;
+}
+#modalBox .modalContentBox{
+	border: 1px solid #1b1b1b;
+	background: #fff;
+	padding-bottom: 0;
+
+}
+#modalBox iframe{
+	margin: 0;
+
+}
+.videoContent{
+
+	width: 500px;
+	height: 355px;
+}
+#modalBox .header{
+	background:  #5eb0ef;
+	color: #fffffe;
+	font-family:arial;
+	padding-left: 12px;
+	font-size: 12px;
+	height: 38px;
+	line-height: 38px;
+	font-weight: bold;
+}
+
+/* boxs */
+.featuredBox{
+	float:left;
+	width:359px;
+}
+
+	.featuredBox .content{
+		padding:14px;	
+		background:#1883d6;
+		color:#fff;
+		height:160px;	
+	}
+	
+	.featuredBox.registerBox{
+		width:730px;
+		height:155px;
+	}
+	
+	
+	.featuredBox.registerBox .content{
+		height:80px;
+	}
+	
+	.featuredBox.registerBox,
+	.featuredBox.learnBox
+	{margin-right:11px;}
+	
+	.featuredBox.learnBox .content{
+		background:#115b95;
+	}
+	
+		#contentArea .featuredBox.learnBox a span{
+		background:url(/images/icon-box-ntl.png) 10px 2px no-repeat;
+	}	
+	
+	#contentArea .featuredBox.harvardBox a span{
+		background:url(/images/icon-box-harvard.png) 10px 0px no-repeat;
+	}
+	
+	#contentArea .featuredBox h2{
+		border:none;
+		margin:0 0 8px;
+		padding:0px;
+		font-size:18px;
+		color:#fff;
+		font-weight:normal;
+		font-family:Helvetica;
+		line-height:20px;
+	}
+	
+	#contentArea .featuredBox h2.oneline{
+		margin-bottom:28px;
+	}
+	
+	#contentArea .featuredBox a{
+		background:#313131;
+		display:block;
+		font-size:16px;
+		height:50px;
+		color:#fff;
+		float:left;
+		width:359px;
+	}
+	
+	#contentArea .featuredBox a:hover{
+		background:#605e5e;
+		text-decoration:none;
+	}
+	
+	#contentArea .featuredBox a span{
+		background:url("i/icon-box-register.png") no-repeat scroll 10px 0px transparent;
+		font-size: 15px;
+		line-height: 20px;
+		float:right;
+		margin-top:6px;
+		margin-left:5px;
+		padding: 6px 20px 8px 55px;
+	}
+	/* register box at challenge detail */
+	#contentArea .featuredBox.registerBox{
+		margin-bottom:13px;
+	}
+	
+	#contentArea .featuredBox.registerBox a{
+		width:730px;
+	}
+	
+	#contentArea .featuredBox.registerBox a span{
+		background-position: 15px 0;
+		padding-right: 310px;
+	}
+	
+	/* harvard box at challenge detail */
+	#contentArea .featuredBox.harvardBox .content{
+		background:#003660;
+	}
+	
+
+/* homepage */
+#homePage .featuredBox.registerBox a,
+#homePage .featuredBox,
+#homePage .featuredBox a{
+	width:316px;
+}
+
+#homePage .featuredBox a span{
+	background-position:10px 0px;
+}
+
+#homePage .featuredBox.registerBox .content{
+	height:160px;
+}
+
+#homePage .featuredBox.registerBox a span{ 
+	background-position: 15px 0;
+    padding-right: 20px;
+}	
+
+
+
+#homePage #contentWrapper{
+	background:#000;
+	display:block;
+}
+
+
+table.noBorder {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    border-collapse: collapse;
+}
+
+tbody table.noBorder tr td{
+	background:none;
+}
+
+.footerMenu {
+    float: right;
+    margin-right: 2px;
+}
+
+.shadowSep{
+	background:url("/images/shadow_sep.png") no-repeat center center;
+	display: inline-block;
+	padding:0 30px;
+	height: 114px;
+
+}
+#contentArea p.personInfo{
+	line-height: normal;
+	padding-top: 15px;
+
+}
+.personName{
+	color:#5eb0ef;
+	font-size: 20px;
+	font-weight: normal;
+}
+.personInfo{
+	font-size: 12px;
+	padding-bottom: 5px;
+
+}
+.personInfo span{
+	color: #818181;
+	display: block;
+	font-weight: bold;
+}
+.shadowBig{
+	background:url("i/shadow_big.png") no-repeat center 0;
+	padding-top: 35px;
+	margin-top: 80px;
+
+}
+#contentArea ul{
+	padding-left: 50px;
+
+}
+#singleColumn #contentArea .resourceList,
+#challengePage #contentArea .resourceList,
+.post .resourceList{
+	list-style: none;
+	padding-left: 0;
+}
+#contentArea .resourceList li,
+.post .resourceList li{
+	background:none;
+	padding-left: 0;
+	float: left;
+	list-style: none;
+	width: 170px;
+	overflow:hidden;
+	margin-right: 35px;
+	padding-bottom: 16px;
+	padding-bottom: 25px;	
+}
+.post .resourceList li.last{
+	margin-right: 0;
+
+}
+.post .resourceList li a{
+	color: #5eb0ef;
+	font-size: 12px;
+	font-weight: bold;
+	display: block;
+}
+.post .resourceList li a img{
+	width: 168px;
+	height: 107px;
+		border:1px solid #fff;
+}
+.post .resourceList li a:hover img{
+		border:1px solid #5eb0ef;
+}
+#challengePage .post .resourceList li{
+	margin-right: 10px;
+
+}
+#contentWrapper .bannerAbout{
+	height: 257px;
+	border:none;
+	background-repeat: no-repeat;
+	background-position: center 0;
+	background-size: auto;
+}
+
+#contentWrapper .bannerCh{
+	height: 280px;
+	border:none;
+	background-repeat: no-repeat;
+	background-position: center 0;
+	background-size: auto;
+}
+
+.sponsored{
+	color: #7f7f7f;
+	border-bottom: 1px solid #f2f2f2;
+	padding-bottom: 20px;
+	text-align: right;
+	height: 44px;
+	line-height: 44px;
+}
+
+#homePage #homeBanner .info{
+	padding-top: 70px;
+	list-style: none;
+
+}
+#homePage #homeBanner .info li{
+	overflow: hidden;
+	padding-left: left;
+	background:none;
+	list-style: none;
+	float: left;
+	width: 203px;
+	padding-left: 40px;
+}
+#homePage #homeBanner .info li.first{
+	padding-left: 0;
+}
+#homePage #homeBanner .info h5{
+	font-weight: normal;
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 10px;
+	color: #fffffe;
+	background:url("i/line.png") no-repeat center bottom;
+
+padding-bottom: 17px;
+}
+#homePage #homeBanner .info p {
+	font-size: 13px;
+line-height:20px;
+	font-size: 13px;
+	text-shadow:1px 1px 1px #2a231c;
+	width: auto;
+}
+#homePage #homeBanner .info p a{
+	color: #5eb0ef;
+
+}
+#homePage #homeBanner .info p a:hover{
+	text-decoration: underline;
+}
+#homePage #homeBanner .info h5 img{
+	position: static;
+	display: block;
+	margin: 0 auto 5px;
+	width: 76px;
+	height: 76px;
+}
+
+/* btn watch with TV icon*/
+a.btnwatchTV{
+	background: url("http://www.topcoder.com/asteroids/files/2014/03/btn_watch_new.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    clear: both;
+    color: #FFFFFF;
+    display: block;
+    height: 80px;
+    margin: 0px 0  0px 320px;
+    padding: 5px 10px 0 50px;
+    width: 400px;
+}
+
+a.btnwatchTV:hover{
+	color:#5EB0EF;
+	background-position:0px -84px;
+}
+
+span.nl{
+	display:block;
+	clear:both;
+}
